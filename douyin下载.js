@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         抖音视频下载 - 需进入详情页
-// @namespace    https://github.com/98zi/MyTampermonkey
+// @namespace    https://github.com/98zi/myTampermonkey-Script
 // @version      0.0.1
 // @description  Tampermonkey description
 // @author       98zi
@@ -15,6 +15,7 @@
   'use strict';
   $(function () {
     setTimeout(function () {
+      $('.danMuPlayerStyle .jkfSVWLT .wobrT4EE:nth-child(4)').remove();
       $('.xgplayer.xgplayer-pc .xg-right-grid').append(`
       <xg-icon class="xgplayer-playclarity-setting" data-state="normal" data-index="10">
         <div class="gear">
@@ -24,7 +25,8 @@
 
       $('#xgplayer-download').click(function () {
         var videoUrl = $('.xgplayer video').find('source:nth-child(1)').attr('src');
-        window.open(videoUrl);
+        $('body').append(`<a id="newdownload" href="${videoUrl}" download></a>`)
+        $('#newdownload')[0].click();
       })
     }, 1000)
 
