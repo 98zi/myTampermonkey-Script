@@ -1,6 +1,13 @@
 ## myTampermonkey-Script
 
+自用的油猴脚本，可能不适用于其他场景，可自行修改。
+
 基于 vue 的油猴脚本模板: [https://github.com/98zi/tampermonkey-template](https://github.com/98zi/tampermonkey-template)
+
+- [v2ex 图片灯箱插件](./v2ex图片灯箱插件.js)
+- [feedly 汉化脚本](./feedly汉化脚本.js)
+- [Netlify 汉化脚本](./Netlify汉化脚本.js)
+- [douyin 下载](./douyin下载.js)
 
 ## 初始化模板
 
@@ -40,7 +47,4 @@ npm start
 
 ## 开发脚本
 
-- [v2ex 图片灯箱插件](./data/v2ex图片灯箱插件.js)
-- [feedly 汉化脚本](./data/feedly汉化脚本.js)
-- [Netlify 汉化脚本](./data/Netlify汉化脚本.js)
-- [douyin 下载](./data/douyin下载.js)
+
