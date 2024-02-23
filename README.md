@@ -1,4 +1,4 @@
-## MyTampermonkey-Script
+## myTampermonkey-Script
 
 基于 vue 的油猴脚本模板: [https://github.com/98zi/tampermonkey-template](https://github.com/98zi/tampermonkey-template)
 
@@ -7,7 +7,7 @@
 ```js
 // ==UserScript==
 // @name         Tampermonkey Nmae
-// @namespace    https://github.com/98zi/MyTampermonkey-Script
+// @namespace    https://github.com/98zi/myTampermonkey-Script
 // @version      0.0.1
 // @description  Tampermonkey description
 // @author       98zi
